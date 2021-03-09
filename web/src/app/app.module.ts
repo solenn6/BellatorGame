@@ -10,6 +10,7 @@ import { InscriptionComponent } from './pages/user/inscription/inscription.compo
 import { ConnexionComponent } from './pages/user/connexion/connexion.component';
 import { HomeComponent } from './pages/home/home.component';
 import { DescriptionComponent } from './pages/description/description.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -22,10 +23,11 @@ import { DescriptionComponent } from './pages/description/description.component'
     HomeComponent,
     DescriptionComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        ReactiveFormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
