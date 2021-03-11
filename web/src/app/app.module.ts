@@ -11,6 +11,8 @@ import { ConnexionComponent } from './pages/user/connexion/connexion.component';
 import { HomeComponent } from './pages/home/home.component';
 import { DescriptionComponent } from './pages/description/description.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { PageErrorComponent } from './page-error/page-error.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import {ReactiveFormsModule} from "@angular/forms";
     InscriptionComponent,
     ConnexionComponent,
     HomeComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    PageErrorComponent,
+    FooterComponent
   ],
     imports: [
         BrowserModule,

@@ -1,1 +1,19 @@
-<p>header works!</p>
+<nav class="navbar navbar-expand-sm bg-dark">
+  <h1 class="mr-5">Bellator Game</h1>
+  <!-- Links -->
+  <ul class="navbar-nav justify-content-end" style="float: right; text-align: right">
+    <li class="nav-right mx-5">
+      <a routerLink="home" routerLinkActive="active-link">Home</a>
+    </li>
+    <li class="nav-right mr-5">
+      <a routerLink="description"> Description </a>
+    </li>
+    <li class="nav-right mr-5">
+      <a routerLink="actu"> Actualité </a>
+    </li>
+    <li class="nav-right mr-5">
+      <a routerLink="inscription"> Mon Compte</a>
+    </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
